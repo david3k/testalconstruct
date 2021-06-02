@@ -1,0 +1,152 @@
+    /*
+    Flaticon icon font: Flaticon
+    Creation date: 25/01/2021 18:44
+    */
+
+    @font-face {
+  font-family: "Flaticon";
+  src: url("./Flaticon.eot");
+  src: url("./Flaticon.eot?#iefix") format("embedded-opentype"),
+       url("./Flaticon.woff2") format("woff2"),
+       url("./Flaticon.woff") format("woff"),
+       url("./Flaticon.ttf") format("truetype"),
+       url("./Flaticon.svg#Flaticon") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@media screen and (-webkit-min-device-pixel-ratio:0) {
+  @font-face {
+    font-family: "Flaticon";
+    src: url("./Flaticon.svg#Flaticon") format("svg");
+  }
+}
+
+    .fi:before{
+        display: inline-block;
+  font-family: "Flaticon";
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  line-height: 1;
+  text-decoration: inherit;
+  text-rendering: optimizeLegibility;
+  text-transform: none;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-font-smoothing: antialiased;
+  font-smoothing: antialiased;
+    }
+
+    .flaticon-sketch:before { content: "\f100"; }
+.flaticon-vector:before { content: "\f101"; }
+.flaticon-worker:before { content: "\f102"; }
+.flaticon-crane:before { content: "\f103"; }
+.flaticon-address:before { content: "\f104"; }
+.flaticon-call-center:before { content: "\f105"; }
+.flaticon-phone-call:before { content: "\f106"; }
+.flaticon-chat:before { content: "\f107"; }
+.flaticon-phone-call-1:before { content: "\f108"; }
+.flaticon-cordless-phone:before { content: "\f109"; }
+.flaticon-mail-send:before { content: "\f10a"; }
+.flaticon-letter:before { content: "\f10b"; }
+.flaticon-upload:before { content: "\f10c"; }
+.flaticon-quality:before { content: "\f10d"; }
+.flaticon-gear:before { content: "\f10e"; }
+.flaticon-certificate:before { content: "\f10f"; }
+.flaticon-social-media:before { content: "\f110"; }
+.flaticon-badge:before { content: "\f111"; }
+.flaticon-recommend:before { content: "\f112"; }
+.flaticon-checking:before { content: "\f113"; }
+.flaticon-performance:before { content: "\f114"; }
+.flaticon-social-media-1:before { content: "\f115"; }
+.flaticon-internet:before { content: "\f116"; }
+.flaticon-performance-1:before { content: "\f117"; }
+.flaticon-clock:before { content: "\f118"; }
+.flaticon-workflow:before { content: "\f119"; }
+.flaticon-analytics:before { content: "\f11a"; }
+.flaticon-project:before { content: "\f11b"; }
+.flaticon-project-1:before { content: "\f11c"; }
+.flaticon-maps-and-location:before { content: "\f11d"; }
+.flaticon-location:before { content: "\f11e"; }
+.flaticon-location-pin:before { content: "\f11f"; }
+.flaticon-phone-call-2:before { content: "\f120"; }
+.flaticon-ambassador:before { content: "\f121"; }
+.flaticon-qualified:before { content: "\f122"; }
+.flaticon-add:before { content: "\f123"; }
+.flaticon-employee:before { content: "\f124"; }
+.flaticon-portfolio:before { content: "\f125"; }
+.flaticon-portfolio-1:before { content: "\f126"; }
+.flaticon-briefcase:before { content: "\f127"; }
+.flaticon-customer:before { content: "\f128"; }
+.flaticon-conversation:before { content: "\f129"; }
+.flaticon-customer-1:before { content: "\f12a"; }
+.flaticon-shield:before { content: "\f12b"; }
+.flaticon-quality-1:before { content: "\f12c"; }
+.flaticon-recommended:before { content: "\f12d"; }
+.flaticon-radio-antenna:before { content: "\f12e"; }
+.flaticon-antenna:before { content: "\f12f"; }
+.flaticon-renovation:before { content: "\f130"; }
+.flaticon-renovation-1:before { content: "\f131"; }
+.flaticon-drywall:before { content: "\f132"; }
+.flaticon-trowel:before { content: "\f133"; }
+.flaticon-trowel-1:before { content: "\f134"; }
+.flaticon-family-house-facade:before { content: "\f135"; }
+.flaticon-roof:before { content: "\f136"; }
+.flaticon-roof-1:before { content: "\f137"; }
+    
+    $font-Flaticon-sketch: "\f100";
+    $font-Flaticon-vector: "\f101";
+    $font-Flaticon-worker: "\f102";
+    $font-Flaticon-crane: "\f103";
+    $font-Flaticon-address: "\f104";
+    $font-Flaticon-call-center: "\f105";
+    $font-Flaticon-phone-call: "\f106";
+    $font-Flaticon-chat: "\f107";
+    $font-Flaticon-phone-call-1: "\f108";
+    $font-Flaticon-cordless-phone: "\f109";
+    $font-Flaticon-mail-send: "\f10a";
+    $font-Flaticon-letter: "\f10b";
+    $font-Flaticon-upload: "\f10c";
+    $font-Flaticon-quality: "\f10d";
+    $font-Flaticon-gear: "\f10e";
+    $font-Flaticon-certificate: "\f10f";
+    $font-Flaticon-social-media: "\f110";
+    $font-Flaticon-badge: "\f111";
+    $font-Flaticon-recommend: "\f112";
+    $font-Flaticon-checking: "\f113";
+    $font-Flaticon-performance: "\f114";
+    $font-Flaticon-social-media-1: "\f115";
+    $font-Flaticon-internet: "\f116";
+    $font-Flaticon-performance-1: "\f117";
+    $font-Flaticon-clock: "\f118";
+    $font-Flaticon-workflow: "\f119";
+    $font-Flaticon-analytics: "\f11a";
+    $font-Flaticon-project: "\f11b";
+    $font-Flaticon-project-1: "\f11c";
+    $font-Flaticon-maps-and-location: "\f11d";
+    $font-Flaticon-location: "\f11e";
+    $font-Flaticon-location-pin: "\f11f";
+    $font-Flaticon-phone-call-2: "\f120";
+    $font-Flaticon-ambassador: "\f121";
+    $font-Flaticon-qualified: "\f122";
+    $font-Flaticon-add: "\f123";
+    $font-Flaticon-employee: "\f124";
+    $font-Flaticon-portfolio: "\f125";
+    $font-Flaticon-portfolio-1: "\f126";
+    $font-Flaticon-briefcase: "\f127";
+    $font-Flaticon-customer: "\f128";
+    $font-Flaticon-conversation: "\f129";
+    $font-Flaticon-customer-1: "\f12a";
+    $font-Flaticon-shield: "\f12b";
+    $font-Flaticon-quality-1: "\f12c";
+    $font-Flaticon-recommended: "\f12d";
+    $font-Flaticon-radio-antenna: "\f12e";
+    $font-Flaticon-antenna: "\f12f";
+    $font-Flaticon-renovation: "\f130";
+    $font-Flaticon-renovation-1: "\f131";
+    $font-Flaticon-drywall: "\f132";
+    $font-Flaticon-trowel: "\f133";
+    $font-Flaticon-trowel-1: "\f134";
+    $font-Flaticon-family-house-facade: "\f135";
+    $font-Flaticon-roof: "\f136";
+    $font-Flaticon-roof-1: "\f137";
